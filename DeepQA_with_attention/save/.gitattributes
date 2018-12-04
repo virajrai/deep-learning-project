@@ -1,0 +1,2 @@
+spock_model_30_epochs/model.ckpt.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
+vader_model_30_epochs/model.ckpt.data-00000-of-00001 filter=lfs diff=lfs merge=lfs -text
