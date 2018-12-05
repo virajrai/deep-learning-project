@@ -1618,7 +1618,7 @@ L101616 +++$+++ u1015 +++$+++ m617 +++$+++ Marshall +++$+++ So like tomorrow, yo
 L101617 +++$+++ u1058 +++$+++ m617 +++$+++  Barney +++$+++ Absolutely.
 L101618 +++$+++ u1066 +++$+++ m617 +++$+++ Ted +++$+++ Thanks, Canada. I'll take it from here. Barney, it's like 26 miles.
 L101619 +++$+++ u1058 +++$+++ m617 +++$+++  Barney +++$+++ Here's how you run a marathon. Step one, you start running. There is no step two.
-L101620 +++$+++ u1015 +++$+++ m617 +++$+++ Marshall +++$+++
+L101620 +++$+++ u1015 +++$+++ m617 +++$+++ Marshall +++$+++ Okay, you know what? Prove it. Take my number and run in my place. I will bet you 50 bucks you don't even finish the race.
 L101621 +++$+++ u1058 +++$+++ m617 +++$+++  Barney +++$+++ 50 bucks? Gee, Grandpa, if I win, maybe I can buy myself an ice-cream cone. Make it $10,000.
 L101622 +++$+++ u1015 +++$+++ m617 +++$+++ Marshall +++$+++ You have a gambling problem. You'll bet me 50.
 L101623 +++$+++ u1058 +++$+++ m617 +++$+++  Barney +++$+++ Fine, then no bet. Okay, $50.
