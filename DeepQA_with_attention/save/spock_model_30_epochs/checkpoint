@@ -1,2 +1,0 @@
-model_checkpoint_path: "/home/ia2341/deep-learning-project/DeepQA_with_attention/save/model/model.ckpt"
-all_model_checkpoint_paths: "/home/ia2341/deep-learning-project/DeepQA_with_attention/save/model/model.ckpt"
