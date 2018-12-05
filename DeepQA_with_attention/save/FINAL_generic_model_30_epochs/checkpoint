@@ -1,2 +1,2 @@
-model_checkpoint_path: "/root/DeepQA/save/model/model.ckpt"
-all_model_checkpoint_paths: "/root/DeepQA/save/model/model.ckpt"
+model_checkpoint_path: "/root/deep-learning-project/DeepQA_with_attention/save/model/model.ckpt"
+all_model_checkpoint_paths: "/root/deep-learning-project/DeepQA_with_attention/save/model/model.ckpt"
