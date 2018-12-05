@@ -30,4 +30,6 @@ $ ./install.sh
 where ```character-name``` is one of the prescribed options.
 - You will now enter into an interactive shell where you can communicate with the desired chatbot. Please do not have unreasonable expectations from this rudimentary model. Try and keep your input statements shorter than 10 words (including punctuation).
 
+In order to see some sample output of the chatbots, navigate to the ```save/FINAL_<character-name>_model_30_epochs/``` directory and look at any of the ```<character-name>_output_*.txt``` files.
+
 # Have fun!
