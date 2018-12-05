@@ -37,6 +37,7 @@ class Chatbot:
         # Model/dataset parameters
         self.args = None
 
+        self.user_input = []
         # Task specific object
         self.textData = None  # Dataset
         self.model = None  # Sequence to sequence model
@@ -314,19 +315,25 @@ class Chatbot:
             if question == '' or question == 'exit':
                 break
 
+            self.user_input.append("Q: " + question)
             questionSeq = []  # Will be contain the question as seen by the encoder
             answer = self.singlePredict(question, questionSeq)
             if not answer:
                 print('Warning: sentence too long, sorry. Maybe try a simpler sentence.')
                 continue  # Back to the beginning, try again
-
-            print('{}{}'.format(self.SENTENCES_PREFIX[1], self.textData.sequence2str(answer, clean=True)))
+            resp = self.textData.sequence2str(answer, clean=True)
+            self.user_input.append("A: " + resp + "\n")
+            print('{}{}'.format(self.SENTENCES_PREFIX[1], resp ))
 
             if self.args.verbose:
                 print(self.textData.batchSeq2str(questionSeq, clean=True, reverse=True))
                 print(self.textData.sequence2str(answer))
 
             print()
+
+        with open("conversation_history.txt", 'w') as f:
+            for l in self.user_input:
+                print(l, file=f)
 
     def singlePredict(self, question, questionSeq=None):
         """ Predict the sentence
